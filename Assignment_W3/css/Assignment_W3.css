@@ -107,27 +107,7 @@
         margin-bottom: 10px;
     }
     
-    #First,
-    #Second,
-    #Third {
+    #First {
         background-color: #ffcd24;
     }
     /*Main Content END*/
-    
-    @media(max-width: 767px) {
-        .col-xs-12 {
-            padding: 15px;
-        }
-    }
-    
-    @media(min-width: 768px) and (max-width: 991px) {
-        .col-sm-12 {
-            padding: 15px;
-        }
-    }
-    
-    @media(min-width: 992px) {
-        .col-md-12 {
-            padding: 15px;
-        }
-    }
