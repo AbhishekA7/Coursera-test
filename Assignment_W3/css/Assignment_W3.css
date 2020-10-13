@@ -1,0 +1,128 @@
+    * {
+        box-sizing: border-box;
+    }
+    /*For the whole body START*/
+    
+    body {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: #272727;
+    }
+    /*For the whole body END*/
+    /*Navigation Bar START*/
+    
+    #header-nav {
+        background-color: #000000;
+        border-radius: 0px;
+    }
+    
+    .navbar-brand p {
+        font-size: 2.0em;
+        color: white;
+    }
+    
+    #list {
+        text-align: center;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #list p:hover {
+        background-color: #dfd265;
+    }
+    
+    #header-nav {
+        color: #272727;
+    }
+    
+    .navbar-brand>p:hover {
+        color: #dfd265;
+    }
+    
+    .navbar-header button.navbar-toggle:hover {
+        background-color: #dfd265;
+    }
+    
+    #main-content .navbar-header button.navbar-toggle,
+    .navbar-header .icon-bar {
+        border: 1px solid #272727;
+    }
+    /*Navigation bar END*/
+    /*Main Content START*/
+    
+    #main-content .navbar-header button.navbar-toggle,
+    .navbar-header .icon-bar {
+        border: 1px solid white;
+    }
+    
+    #styling1 {
+        margin-top: 0px;
+    }
+    
+    #styling3 {
+        margin-bottom: 0px;
+    }
+    
+    section p {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        padding: auto 5px auto 5px;
+        margin: 5px;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    h2:hover {
+        color: #dfd265;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+    
+    h3:hover {
+        color: white
+    }
+    
+    #main-content {
+        width: 100%;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #First {
+        background-color: #dfd265;
+    }
+    
+    #Second {
+        background-color: #dfd265;
+    }
+    
+    #Third {
+        background-color: #dfd265;
+    }
+    /*Main Content END*/
+    
+    @media(max-width: 767px) {
+        .col-xs-12 {
+            padding: 15px;
+        }
+    }
+    
+    @media(min-width: 768px) and (max-width: 991px) {
+        .col-sm-12 {
+            padding: 15px;
+        }
+    }
+    
+    @media(min-width: 992px) {
+        .col-md-12 {
+            padding: 15px;
+        }
+    }
