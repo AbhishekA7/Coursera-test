@@ -5,13 +5,13 @@
     
     body {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background-color: #272727;
+        background-color: #2aabe4;
     }
     /*For the whole body END*/
     /*Navigation Bar START*/
     
     #header-nav {
-        background-color: #000000;
+        background-color: #33393d;
         border-radius: 0px;
     }
     
@@ -30,25 +30,25 @@
     }
     
     #list p:hover {
-        background-color: #dfd265;
+        background-color: #ffcd24;
         color: black;
     }
     
     #header-nav {
-        color: #272727;
+        color: #2aabe4;
     }
     
     .navbar-brand>p:hover {
-        color: #dfd265;
+        color: #ffcd24;
     }
     
     .navbar-header button.navbar-toggle:hover {
-        background-color: #dfd265;
+        background-color: #ffcd24;
     }
     
     #main-content .navbar-header button.navbar-toggle,
     .navbar-header .icon-bar {
-        border: 1px solid #272727;
+        border: 1px solid #2aabe4;
     }
     /*Navigation bar END*/
     /*Main Content START*/
@@ -79,7 +79,7 @@
     }
     
     h2:hover {
-        color: #dfd265;
+        color: #ffcd24;
     }
     
     h3 {
@@ -87,7 +87,7 @@
     }
     
     h3:hover {
-        color: white
+        color: #2aabe4
     }
     
     #main-content {
@@ -97,16 +97,10 @@
         margin-bottom: 10px;
     }
     
-    #First {
-        background-color: #dfd265;
-    }
-    
-    #Second {
-        background-color: #dfd265;
-    }
-    
+    #First,
+    #Second,
     #Third {
-        background-color: #dfd265;
+        background-color: #ffcd24;
     }
     /*Main Content END*/
     
