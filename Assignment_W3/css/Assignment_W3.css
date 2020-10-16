@@ -21,7 +21,6 @@
     }
     
     #list {
-        vertical-align: text-top;
         text-align: center;
         padding: 0px;
         margin-top: 0px;
@@ -30,7 +29,7 @@
         font-size: 20px;
     }
     
-    #list p:hover {
+    #list a:hover {
         background-color: #ffcd24;
         color: black;
     }
@@ -54,8 +53,6 @@
     .navbar-header .icon-bar {
         border: 1px solid #2aabe4;
     }
-    /*Navigation bar END*/
-    /*Main Content START*/
     
     #main-content .navbar-header button.navbar-toggle,
     .navbar-header .icon-bar {
@@ -69,6 +66,8 @@
     #styling3 {
         margin-bottom: 0px;
     }
+    /*Navigation bar END*/
+    /*Main Content START*/
     
     section p {
         text-align: left;
@@ -101,14 +100,18 @@
     }
     
     #main-content {
-        width: 80%;
+        width: 100%;
         padding: 20px;
         margin-top: 10px;
         margin-bottom: 35px;
     }
     
-    #First {
+    #First,
+    #Second,
+    #Third {
         background-color: #ffcd24;
-        box-shadow: 0 0 50px #7e6208;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
     /*Main Content END*/
+    /*For the whole body START*/
